@@ -30,7 +30,7 @@ function heroIntro() {
   });
   gsap.to(sub, {
     opacity: 1, y: 0, duration: 0.7, delay: 0.95, ease: 'power2.out',
-    onComplete: () => scramble(sub, 'Builder. Hacker. Creator.', 650),
+    onComplete: () => scramble(sub, 'Ideas, engineered into reality', 650),
   });
   gsap.to(tag, { opacity: 1, y: 0, duration: 0.7, delay: 1.3, ease: 'power2.out' });
   gsap.to(hint, { opacity: 0.55, y: 0, duration: 0.7, delay: 1.6, ease: 'power2.out' });

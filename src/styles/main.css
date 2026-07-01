@@ -106,7 +106,7 @@ body.no-webgl{background:radial-gradient(ellipse at 50% 38%,#0c1330,#05060a 70%)
 #hero-name.glitch::after{animation:glitchBot .9s steps(2,end) 1;opacity:.8;mix-blend-mode:screen;transform:translate(3px,2px)}
 @keyframes glitchTop{0%,100%{clip-path:inset(0 0 60% 0)}50%{clip-path:inset(0 0 55% 0);transform:translate(-6px,-2px)}}
 @keyframes glitchBot{0%,100%{clip-path:inset(60% 0 0 0)}50%{clip-path:inset(55% 0 0 0);transform:translate(6px,2px)}}
-#hero-sub{font-size:clamp(15px,2.2vw,24px);letter-spacing:.42em;font-weight:500;color:var(--text)}
+#hero-sub{font-size:clamp(15px,2.2vw,24px);letter-spacing:.24em;font-weight:500;color:var(--text)}
 #hero-tag{font-family:'Space Mono',monospace;font-size:clamp(10px,1.1vw,13px);letter-spacing:.3em;color:var(--muted);text-transform:uppercase}
 .tag-key{color:var(--c1)}
 #scroll-hint{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;opacity:.55;animation:floatHint 2.2s ease-in-out infinite}
